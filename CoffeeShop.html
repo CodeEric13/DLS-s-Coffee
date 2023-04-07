@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Website</title>
+    <!-- Custom css -->
+    <link rel="stylesheet" href="coffeeStyle.css">
+    <!-- Font Awesome Cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+</head>
+
+<body>
+    <!-- Header Section -->
+    <div class="header" id="home">
+        <nav id="navbar">
+            <a href="#home" class="logo">DLS's <span>Coffee</span></a>
+            <div class="links" id="nav">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#blog">Blog</a>
+                <a href="#service">Services</a>
+                <a href="#team">Team</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <div class="fas fa-bars" id="menu-btn" onclick="openmenu()"></div>
+            <div class="fa-solid fa-xmark" id="close" onclick="closemenu()"></div>
+        </nav>
+        <div class="content">
+            <h3>Now you can feel the energy</h3>
+            <h1>start your day with <br>a coffee</h1>
+            <button class="btn">Buy Now</button>
+        </div>
+    </div>
+    <!-- Header Section End -->
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="image" width="650" height="250">
+             <img url="https://www.pexels.com/photo/white-ceramic-teacup-428310/">
+              
+            </div>
+            <div class="about-content">
+                <h1>Dapitan's Best Coffee</h1>
+                <h3>What makes our coffee special?</h3>
+                <p><b>serve the tastiest coffee here in Dapitan that is made of pure coffee bins powder. DLS coffee is here to serve y'all.</b></p>
+                <button class="btn" style="color: wheat;">About Us</button>
+            </div>
+        </div>
+    </section>
+    <!-- About Section End-->
+    <!-- Blog Section -->
+    <section class="blog" id="blog">
+        <h1 class="heading">Feed<span>backs</span></h1>
+        <div class="container">
+            <div class="post">
+                <div class="blog-img" >
+                    <img src="https://scontent.fdvo1-1.fna.fbcdn.net/v/t39.30808-6/321453987_692612715654360_5289597703911125712_n.jpg?stp=cp6_dst-jpg&_nc_cat=109&ccb=1-7&_nc_sid=8bfeb9&_nc_eui2=AeExlbiSZ7__HDyacNDco5OrPRQpiiMSoD89FCmKIxKgP_pQdCqEjZhkMYxfxvcM0GbyCXl3LWrK4iE5N-EIvwr8&_nc_ohc=x29gk7iT6ywAX9VRL9t&_nc_ht=scontent.fdvo1-1.fna&oh=00_AfBtJsDTayiOFb5B0PGXZ-UbyNtfq-Qu52LUguh6SV4j0w&oe=643427B5" alt="">
+                    <span>2 <br> Age </span>
+                </div>
+                <div class="blog-content">
+                    <h3>Customer |<span> Sherilyn Badelles</span></h3>
+                    <h1>The Best Coffee in Town</h1>
+                    <p>Sheesh</p>
+                </div>
+            </div>
+            <div class="post">
+                <div class="blog-img">
+                    <img src="https://scontent.fcgy2-2.fna.fbcdn.net/v/t1.6435-9/165798995_1097872784022443_951554878830104728_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=174925&_nc_eui2=AeEgCNhCQrishkeLzLJjZqfVPAE8wBF8TG08ATzAEXxMbc2Ta17TyRDAPm5fn16BpSGzX49hNKeYZTWIhnJZXMPD&_nc_ohc=Ve7gMwgG87sAX8Bhm8R&_nc_ht=scontent.fcgy2-2.fna&oh=00_AfB_47KOR9yukrbF6r0QIMb_umHQF_EY4BQ79XzPB9iHpw&oe=6456C151" alt="">
+                    <span>20 <br> Age </span>
+                </div>
+                <div class="blog-content">
+                    <h3>Customer |<span> Aika Mahinay</span></h3>
+                    <h1>Delicious</h1>
+                    <p>This is the best coffe ever</p>
+                </div>
+            </div>
+                <div class="post">
+                    <div class="blog-img">
+                        <img src="https://scontent.fcgy2-2.fna.fbcdn.net/v/t39.30808-6/319034849_903799140991237_5760657689718762802_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=174925&_nc_eui2=AeH_AVxC0wOxAFby7uW9Ldd3A6H35HCJTQ8DoffkcIlND1xqOt9QaxXcn7p1JtfLoBKh7mkY1t5Lbr8yw0PDEcZb&_nc_ohc=Vw9V_FiGT-kAX9_7eD3&_nc_ht=scontent.fcgy2-2.fna&oh=00_AfDUQ6e0fFkzCIm_OivGaXfXtdNUhwlcfCyOfEkQp70kBg&oe=64346F36" alt="">
+                        <span>20 <br> Age </span>
+                    </div>
+                <div class="blog-content">
+                    <h3>Customer|<span> Lux Leigh Apos</span></h3>
+                    <h1>Tasty</h1>
+                    <p>Very affordable</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Blog Section End-->
+    <!-- Service Section -->
+    <section class="service" id="service">
+        <h1 class="heading">Our <span>Services</span></h1>
+        <p class="heading-description">We deliver our products free door to door 24x7 = 360</p>
+        <div class="container">
+            <div class="service-box">
+                <div class="service-img">
+                    <img src="https://images.pexels.com/photos/324028/pexels-photo-324028.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+                </div>
+                <div class="service-content">
+                    <h3>Menu</h3>
+                    <p>We serve different kinds of coffee and espresso-based drinks along with a small selection of pastries</p>
+                </div>
+            </div>
+            <div class="service-box">
+                <div class="service-img">
+                    <img src="https://images.pexels.com/photos/585753/pexels-photo-585753.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+                </div>
+                <div class="service-content">
+                    <h3>Pre-Order</h3>
+                    <p>DLS's Coffee also serves pre orders with reserve tables </p>
+                </div>
+            </div>
+            <div class="service-box">
+                <div class="service-img">
+                    <img src="https://images.pexels.com/photos/842548/pexels-photo-842548.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+                </div>
+                <div class="service-content">
+                    <h3>Online Service</h3>
+                    <p>Online orders are available here in DLS's Coffee from 8am to 8pm, we serve door to door</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Service Section End -->
+    <!-- Team Section -->
+    <section class="team" id="team">
+        <h1 class="heading"> Our <span>Team</span></h1>
+        <p class="heading-description"> Long lasting tradition & true love for coffee</p>
+        <div class="container">
+            <div class="team-box">
+                <div class="team-img">
+                    <img src="https://scontent.fdvo1-1.fna.fbcdn.net/v/t1.15752-9/338290696_1277211939499481_7389252016245977594_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=ae9488&_nc_eui2=AeE6OJd_LUN-0blpitvdoPMYHEr6KeDFFAscSvop4MUUC8WNMtx4MMkk2XmHTu6Rdo6UUtO1KtUlUiV3p-CCxmPJ&_nc_ohc=JXor_BTYOwwAX_r-3tY&_nc_ht=scontent.fdvo1-1.fna&oh=03_AdSsGrm8XQi_Ug2o9DpIWPfG-r5OQM-AoGnF67wHKQE4HQ&oe=64562B2C" alt="">
+                    </div>
+                        <div class="team-content">
+                            <h3>Eric S. De Los Santos</h3>
+                            <p>Owner</p>
+                        <div class="social">
+                            <a href="https://www.facebook.com/eric.delossantos.3139" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+                            <a href="https://l.facebook.com/l.php?u=https%3A%2F%2Finstagram.com%2Ferichology_13%3Figshid%3DZDdkNTZiNTM%253D%26fbclid%3DIwAR2hdJ2mvzpE9SWHoVAQfU2DYZkP79c3PUW_tS1UU_mSDm32mGoqn6T0BO4&h=AT2ZJdG2F-6ABUOu6FHkvLMkPZEzQP8Wsvt6eEMnrAfYydLDBsz_7wZjhARozNIASk0yEBwJTtmE1IXANil2YZuhtfwjx91hEegF9FzGWy1JJNfzJroUOpkcJQAvTtZzoSndRw" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.tiktok.com%2Fforyou%3Ffbclid%3DIwAR2nWgIdmo0htpdfuGvDy1taCmAKcDSU8DRFu8-qB2bv3aiquSfplQYmPbE&h=AT2ZJdG2F-6ABUOu6FHkvLMkPZEzQP8Wsvt6eEMnrAfYydLDBsz_7wZjhARozNIASk0yEBwJTtmE1IXANil2YZuhtfwjx91hEegF9FzGWy1JJNfzJroUOpkcJQAvTtZzoSndRw" target="_blank"><i class="fa-brands fa-tiktok"></i></a>
+                    </div>
+                </div>
+            </div>
+        <div class="team-box">
+        <div class="team-img">
+                    <img src="https://scontent.fcgy2-2.fna.fbcdn.net/v/t1.15752-9/338212139_665399492022123_7113381691846273766_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=ae9488&_nc_eui2=AeELTbOT28RzNbWRxT1weE0cYmM-RAYImLpiYz5EBgiYugOFcfvWx5PthbfQkQdyxQ8cRla-rqev8yQvFMY52e3R&_nc_ohc=AoNZTe3qSmUAX8Wnk6r&_nc_ht=scontent.fcgy2-2.fna&oh=03_AdRFC9uLlnGIkXBTFrNRlr9ezt5MO3LVIMsJQ9QdvVeqLg&oe=64560B1C" alt="">
+                </div>
+                <div class="team-content">
+                    <h3>Apple Cumpayan</h3>
+                    <p>Manager</p>
+                    <div class="social">
+                        <a href="https://www.facebook.com/profile.php?id=100004288247195" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="team-box">
+                <div class="team-img">
+                    <img src="https://scontent.fcgy2-1.fna.fbcdn.net/v/t1.15752-9/338176104_1025361925517318_2566170368507896004_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=ae9488&_nc_eui2=AeFDK7QIMPvQnIamlcpLH92Lurhjzz-aDp66uGPPP5oOnmGgECz5xmZ-rBnzluRD0ggRq3nU_UKebUDz6tz4xvM6&_nc_ohc=v4Sx3lZSHCkAX_mteqr&_nc_ht=scontent.fcgy2-1.fna&oh=03_AdRO_uer8Q9editi3Iob_UEnVMv2wyLeyHKva9YkaTqd1g&oe=6456E566" alt="">
+                </div>
+                <div class="team-content">
+                    <h3>Ronna Dagayloan</h3>
+                    <p>Social Media Manager</p>
+                    <div class="social">
+                        <a href="https://www.facebook.com/ronna.dagayloanpacaro" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="team-box">
+                <div class="team-img">
+                    <img src="https://cdn.fbsbx.com/v/t59.2708-21/339880032_571878488254230_4389061218498858064_n.gif?stp=dst-gif_p960x960&_nc_cat=110&ccb=1-7&_nc_sid=041f46&_nc_eui2=AeHxc2Gjfqosge4dDaY7RrY7YZmmFZINe81hmaYVkg17zc8ictDG1XmvyyTuCogU6_Dx4BeC79wZUvKSE4Xmcbqv&_nc_ohc=ExJsBsBjGBgAX-mnN0B&_nc_ht=cdn.fbsbx.com&oh=03_AdRdzBn1Rk0x1R_ejNltZFbhbwy-0rpVPQICd-ev6_C14g&oe=64310290" alt="">
+                </div>
+                <div class="team-content">
+                    <h3>Julito Husin</h3>
+                    <p>Barista</p>
+                    <div class="social">
+                        <a href="https://www.facebook.com/julito.rendonhusin" target="_blank"><i class="fa-brands fa-facebook-f" ></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Team Section End-->
+    <!-- Contact Section  -->
+    <section class="contact" id="contact">
+        <h1 class="heading">Contact <span>Us</span></h1>
+        <p class="heading-description">We are always here for you...</p>
+        <div class="container">
+            <div class="contact-box">
+                <div>
+                    <i class="fa-solid fa-envelope"></i>
+                    <h2>Email address <br> <span>Send email anytime</span></h2>
+                </div>
+                <div>
+                    <p>bibeh2949@gmail.com</p>
+                    <i class="fa-solid fa-right-long"></i>
+                </div>
+            </div>
+            <div class="contact-box">
+                <div>
+                    <i class="fa-solid fa-location-dot"></i>
+                    <h2>Address <br> <span>Find Us</span></h2>
+                </div>
+                <div>
+                    <p>Dapitan City</p>
+                    <i class="fa-solid fa-right-long"></i>
+                </div>
+            </div>
+            <div class="contact-box">
+                <div>
+                    <i class="fa-solid fa-phone"></i>
+                    <h2>Call Us <br> <span>Call us anytime</span></h2>
+                </div>
+                <div>
+                    <p>09669258784</p>
+                    <i class="fa-solid fa-right-long"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Contact Section End -->
+    <script src="main.js"></script>
+</body>
+
+</html>
